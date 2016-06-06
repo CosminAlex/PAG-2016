@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68A4005A-9EC8-4C1F-AEF8-47FAD16FDAAD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Project__I.My.MyApplication</StartupObject>
+    <RootNamespace>Project__I</RootNamespace>
+    <AssemblyName>Project--I</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Project--I.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Project--I.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caractere.Designer.vb">
+      <DependentUpon>Caractere.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caractere.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="final_joc.Designer.vb">
+      <DependentUpon>final_joc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="final_joc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAutor.Designer.vb">
+      <DependentUpon>InfoAutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manual_utilizare.Designer.vb">
+      <DependentUpon>Manual_utilizare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_utilizare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_joc.Designer.vb">
+      <DependentUpon>Mod_joc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_joc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="start.Designer.vb">
+      <DependentUpon>start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Caractere.resx">
+      <DependentUpon>Caractere.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="final_joc.resx">
+      <DependentUpon>final_joc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAutor.resx">
+      <DependentUpon>InfoAutor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_utilizare.resx">
+      <DependentUpon>Manual_utilizare.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_joc.resx">
+      <DependentUpon>Mod_joc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demo-proj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demo-proj1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragon-cut-out.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\684120.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superman-minion-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %2820%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kKYFHN1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Orange_copyright.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superman-minion-ico1n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool-wallpapers-3d-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="music\bipspace.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="music\bip.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="music\bipcut.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Feeding-Frenzy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Furtiffes-lunettes vertes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\le Coq 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luis %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Bro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonTux256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotardTux256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TuxSmoking256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gru%27s_Lab_Minion_Mayhem_ride.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carswall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinguinwall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mariowall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zanawall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocoswall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veveritawall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pestewall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="caractere\superman-minion-ico1n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-snooker-ball-300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapet-ideea-402612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03101-30_20130117_2051444902_690x690.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\895127.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6943555-3d-black-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\281318.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UZKEjzG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flappyWall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\640x359_20823_Environments_Educational_Game_2d_cartoon_landscape_forest_game_art_background_picture_image_digital_art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinguinCostumWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARWALL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galbenWall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Albastrel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MINIONWALL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steel-block-texture-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray-black-texture-surface-point.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texture-aba8405_1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
